@@ -1,0 +1,52 @@
+header{
+    background-color: #34B233;
+    color: white;
+    padding-bottom: 2em;
+}
+
+body{
+    font-family: 'Cantarell', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tag-line {
+    font-size: 200%;
+    width: 50%;
+    font-family: 'Cantarell', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Fjalla One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200; 
+}
+
+h1 {
+    font-size:400%
+}
+
+h2 {
+    font-size: 200%
+}
+
+.abstract {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #E6EFF0;
+    font-size: 125%;
+}
+
+.viz {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+.ending {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #E6EFF0;
+    font-size: 125%;
+}
+
