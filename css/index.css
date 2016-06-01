@@ -41,8 +41,6 @@ h2 {
     padding-bottom: 2em;
 }
 
-
-
 .ending {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -50,3 +48,23 @@ h2 {
     font-size: 125%;
 }
 
+th {
+    cursor: pointer;
+}
+
+
+table tbody, table thead
+{
+    display: block;
+}
+
+table tbody 
+{
+   overflow: auto;
+   height: 350px;
+}
+
+th
+{
+    width: 180px;
+}
