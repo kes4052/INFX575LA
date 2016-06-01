@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="UTF-8">
     <title>Myanamar 2015 Election Analysis</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
@@ -26,6 +27,28 @@
              </div>
           </section>
           
+        <section class="table">
+            <div class="container">
+                <h2>Margin of Victory Results</h2>
+ 
+                <p>The following table summarizes margin of victory calculations for Myanmar's 2015 Elections.</p>
+
+                <table class="table margin-of-victory">
+                    <thead>
+                        <tr>
+                            <th id="house-header">House</th>
+                            <th id="state-region-header">State/Region</th>
+                            <th id="constituency-header">Constituency</th>
+                            <th id="mov-header">Margin of Victory</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!--use JavaScript to populate tbody-->
+                    </tbody>
+                </table>
+              </div>
+          </section>
+       
         <section class="viz">
           <div class="container">
             <h2>Map of Myanmar 2015 Voter Turnout by Region</h2>
@@ -49,5 +72,7 @@
         </section>  
     </main>
     
+    <script src="data/mov.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
